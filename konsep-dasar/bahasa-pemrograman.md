@@ -1,6 +1,8 @@
-[🏠](../../README.md) / [Konsep Dasar](../README.md) / [input + output = proses](README.md)
+[🏠](../README.md) / [Konsep Dasar](./README.md)
 
 # Bahasa Pemrograman
+
+Bahasa pemrograman adalah sebuah sistem notasi yang bisa kita gunakan untuk menulis program komputer. Dengan menguasai bahasa pemrograman, kita bisa membuat komputer melakukan tugas-tugas yang sudah kita definisikan.
 
 Ada beberapa bahasa pemrograman yang cukup populer dan kerap dipakai. Masing-masing memiliki karakteristik dan kegunaan yang berbeda:
 
@@ -68,5 +70,5 @@ Jika kita banyak bermain dengan hardware, atau membutuhkan kendali level rendah,
 Tentu saja, semakin banyak kita tahu dengan bahasa-bahasa pemrograman yang lain seperti PHP, Java, dan lain sebagainya, maka akan semakin banyak peluang yang terbuka.
 
 
+[🏠](../README.md) / [Konsep Dasar](./README.md)
 
-[🏠](../../README.md) / [Konsep Dasar](../README.md) / [input + output = proses](README.md)

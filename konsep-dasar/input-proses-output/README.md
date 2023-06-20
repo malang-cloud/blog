@@ -12,7 +12,7 @@ Pada tahapan lebih lanjut, orang-orang mulai mengembangkan perangkat lunak (soft
 
 Dewasa ini, pekerjaan rekayasa perangkat lunak menjadi sangat populer. Orang-orang yang merekayasa/membuat perangkat lunak kita kenal dengan sebutan programmer.
 
-Kita bisa menulis perangkat lunak menggunakan bahasa pemrograman. Kita akan membahas lebih dalam tentang karakteristik dari setiap bahasa pemrograman [di artikel yang berbeda](bahasa-pemrograman.md).
+Kita bisa menulis perangkat lunak menggunakan bahasa pemrograman. Kita akan membahas lebih dalam tentang karakteristik dari setiap bahasa pemrograman [di artikel yang berbeda](../bahasa-pemrograman.md).
 
 Untuk saat ini, kita akan mencoba untuk melihat contoh aplikasi untuk menerima input, melakukan proses, dan menampilkan output dalam beberapa bahasa pemrograman yang tampaknya cukup populer.
 
@@ -105,13 +105,16 @@ Untuk pembahasan lebih lanjut silahkan klik [link berikut](./javascript-nodejs/R
 ```php
 <?php
 
+// input
 $inputA = readline('Nilai A: ');
 $inputB = readline('Nilai B: ');
 
+// proses
 $a = intval($inputA);
 $b = intval($inputB);
 $c = $a + $b;
 
+// output
 echo "Nilai A + B = $c\n";
 ```
 
@@ -127,14 +130,17 @@ public class UserInputExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // input
         System.out.print("Nilai A: ");
         int a = scanner.nextInt();
 
         System.out.print("Nilai B: ");
         int b = scanner.nextInt();
 
+        // proses
         int c = a + b;
 
+        // output
         System.out.println("Nilai A + B = " + c);
 
         scanner.close();
@@ -151,23 +157,23 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func main() {
 	var a, b int
 
+    // input
 	fmt.Print("Nilai A: ")
 	fmt.Scanln(&a)
 
 	fmt.Print("Nilai B: ")
 	fmt.Scanln(&b)
 
+    // proses
 	c := a + b
 
+    // output
 	fmt.Printf("Nilai A + B = %d\n", c)
-
-	os.Exit(0)
 }
 ```
 
@@ -183,14 +189,17 @@ Untuk pembahasan lebih lanjut silahkan klik [link berikut](./go/README.md).
 int main() {
     int a, b;
 
+    // input
     printf("Nilai A: ");
     scanf("%d", &a);
 
     printf("Nilai B: ");
     scanf("%d", &b);
 
+    // proses
     int c = a + b;
 
+    // output
     printf("Nilai A + B = %d\n", c);
 
     return 0;
