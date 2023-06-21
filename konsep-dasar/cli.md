@@ -25,6 +25,16 @@ Jika kalian menggunakan Windows, maka sebaiknya menginstall WSL2 juga, karena na
 
 Jika kalian menggunakan Mac, maka sebaiknya menginstall homebrew. Untuk menginstall homebrew, ikuti [panduan berikut](https://brew.sh/).
 
+# Mengapa CLI?
+
+Ada beberapa alasan mengapa banyak programmer menyukai CLI:
+
+- Kebanyakan software untuk development berjalan di CLI
+- Perintah CLI bisa diulang dengan mudah (tinggal copy paste dan jalankan di terminal), berbeda dengan aplikasi GUI yang mengahruskan kita untuk menekan tombol/icon secara berurutan.
+- Karena perintah CLI mudah diulang, maka mudah pula di otomasi, misalnya dengan menggunakan [shell script](https://www.shellscript.sh/).
+
+Biasanya banyak pemula yang tidak nyaman dengan CLI. Tapi jangan khawatir, kalian tidak harus meninggalkan GUI untuk menjalankan perintah-perintah CLI. Lagipula, perintah-perintah CLI dasar mudah dipelajari. Kalian akan terbiasa hanya dalam beberapa menit.
+
 # Menggunakan CLI
 
 Kalian bisa membuka CLI dengan menjalankan terminal di komputer kalian. Jika kalian menggunakan WSL, maka kalian perlu mengetikkan perintah `wsl` disusul dengan tombol `enter`.
@@ -35,7 +45,7 @@ Menggunakan CLI sebenarnya mirip dengan menggunakan aplikasi chatting. Kalian me
 
 Mari kita coba beberapa perintah yang sering dipakai.
 
-# pwd
+## pwd
 
 Kalian bisa menggunakan perintah ini untuk mengetahui di direktori/folder kalian bekerja saat ini.
 
@@ -49,7 +59,7 @@ Komputer akan menampilkan lokasi direktori tempat kalian berada sekarang (workin
 /home/gofrendi
 ```
 
-# ls
+## ls
 
 Kalian bisa menggunakan perintah ini untuk melihat isi dari sebuah direktori.
 
@@ -108,7 +118,7 @@ Ada beberapa aturan khusus saat kalian ingin menyebutkan nama direktori:
     - Home directory di linux atau mac biasanya adalah `/home/nama-pengguna`. Misalnya home directory saya adalah `/home/gofrendi`.
 - Awalan `..` menandakan berpindah ke satu folder di atas current directory (disebut juga parent directory)
 
-# cat
+## cat
 
 Perintah lain yang kerap dipakai adalah `cat`. Perintah ini berguna untuk menampilkan isi dari sebuah file.
 
@@ -116,8 +126,21 @@ Perintah lain yang kerap dipakai adalah `cat`. Perintah ini berguna untuk menamp
 cat ~/.zshrc
 ```
 
+## clear
+
+Perintah ini berguna untuk membersihkan tampilan terminal
+
+```bash
+clear
+```
+
+# Beberapa tips
+
+- Kalian bisa menekan `panah atas` untuk menampilkan perintah sebelumnya. Kalian juga bisa menekan panah atas beberapa kali jika dibutuhkan.
+- Kalian bisa menekan tombol `tab` untuk melengkapi perintah yang kalian tulis secara otomatis.
+
 # Lebih lanjut
 
-Kita baru saja membahas perintah-perintah CLI yang umum dipakai. Untuk mempelajari CLI lebih lanjut, kalian bisa mengunjungi [artikel di freecodecamp berikut](https://www.freecodecamp.org/news/command-line-for-beginners/).
+Kita baru saja membahas perintah-perintah CLI yang umum dipakai. Untuk mempelajari CLI lebih lanjut, kalian bisa mengunjungi [artikel di freecodecamp tentang CLI](https://www.freecodecamp.org/news/command-line-for-beginners/).
 
 [🏠](../README.md) / [Konsep Dasar](./README.md)

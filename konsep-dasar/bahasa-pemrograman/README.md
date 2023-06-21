@@ -1,4 +1,4 @@
-[🏠](../README.md) / [Konsep Dasar](./README.md)
+[🏠](../../README.md) / [Konsep Dasar](../README.md)
 
 # Bahasa Pemrograman
 
@@ -12,6 +12,7 @@ Ada beberapa bahasa pemrograman yang cukup populer dan kerap dipakai. Masing-mas
     - Bisa juga dipakai untuk membuat aplikasi backend.
     - Diterjemahkan ke dalam bahasa mesin pada saat program dijalankan, sehingga cenderung lebih lambat dibandingkan Golang atau C.
     - Dibuat oleh Guido van Rossum sejak 1991.
+    - Klik [link berikut](python.md) untuk mulai bekerja dengan Python.
 - JavaScript
     - Bisa dipakai untuk membuat aplikasi backend (dengan menggunakan Node.Js) ataupun frontend.
     - Sangat populer dalam pemrograman web.
@@ -70,5 +71,5 @@ Jika kita banyak bermain dengan hardware, atau membutuhkan kendali level rendah,
 Tentu saja, semakin banyak kita tahu dengan bahasa-bahasa pemrograman yang lain seperti PHP, Java, dan lain sebagainya, maka akan semakin banyak peluang yang terbuka.
 
 
-[🏠](../README.md) / [Konsep Dasar](./README.md)
+[🏠](../../README.md) / [Konsep Dasar](../README.md)
 

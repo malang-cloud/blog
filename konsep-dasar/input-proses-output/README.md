@@ -12,7 +12,7 @@ Pada tahapan lebih lanjut, orang-orang mulai mengembangkan perangkat lunak (soft
 
 Dewasa ini, pekerjaan rekayasa perangkat lunak menjadi sangat populer. Orang-orang yang merekayasa/membuat perangkat lunak kita kenal dengan sebutan programmer.
 
-Kita bisa menulis perangkat lunak menggunakan bahasa pemrograman. Kita akan membahas lebih dalam tentang karakteristik dari setiap bahasa pemrograman [di artikel yang berbeda](../bahasa-pemrograman.md).
+Kita bisa menulis perangkat lunak menggunakan bahasa pemrograman. Kita akan membahas lebih dalam tentang karakteristik dari setiap bahasa pemrograman [di artikel yang berbeda](../bahasa-pemrograman/README.md).
 
 Untuk saat ini, kita akan mencoba untuk melihat contoh aplikasi untuk menerima input, melakukan proses, dan menampilkan output dalam beberapa bahasa pemrograman yang tampaknya cukup populer.
 
