@@ -3,7 +3,7 @@
 # Konsep Dasar
 
 - [CLI](cli.md)
-- [Bahasa pemrgoraman](bahasa-pemrograman.md)
+- [Bahasa pemrograman](bahasa-pemrograman/README.md)
 - [Input + Proses = Output](input-proses-output/README.md)
 - Membaca pesan error
 - Server + Client, contoh implementasi: (PHP, Node.Js, dkk)
