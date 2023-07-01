@@ -9,7 +9,7 @@ Sedangkan *Observability* (PEMANTAUAN) adalah alat / konsep bagaimana sebuah  pe
 Tujuan dari *Observability & Monitoring* dalam pengembangan perangkat lunak adalah untuk memastikan bahwa sistem perangkat lunak berjalan dengan baik, kinerja dan keandalannya terjaga, serta memberikan pengalaman pengguna yang baik. Berikut adalah beberapa tujuan *Observability & Monitoring* secara lebih rinci
 
 ## Memantau Secara Real Time
-Memantau sistem perangkat lunak secara real time untuk memastikan kinerja sistem berjalan dengan baik, sehingga apabila terjadi masalah pada perangkat lunak bisa diambil sebuah tindakan, misalnya bila terjadi gangguan sistem, penurunan layanan, bug, dan aktivitas yang tidak diizinkan
+Memantau sistem secara real time untuk memastikan kinerja sistem berjalan dengan baik, sehingga apabila terjadi masalah pada perangkat lunak bisa diambil sebuah tindakan, misalnya bila terjadi gangguan sistem, penurunan layanan, bug, dan aktivitas yang tidak diizinkan
 
 ## Memahami Penyebab Masalah pada Sistem
 Pemasangan *Observability & Monitoring* dapat memberikan kita kemampuan untuk bisa memahami bagaimana *behaviour* sistem. Hal ini sangat penting dalam sistem modern yang terdistribusi, yang cukup kompleks dan sulit dipahami tanpa bantuan *Observability & Monitoring* yang tepat. Terutama tanda-tanda terjadinya gangguan sistem, penurunan layanan, bug, dan aktivitas yang tidak diizinkan.
@@ -22,15 +22,15 @@ Monitoring and observability bisa didapatkan dengan kita beberapa komponen, sepe
 
 ## *Log*
 Kumpulan informasi mengenai sebuah event yang muncul di aplikasi atau sistem, seperti pesan galat, permintaan ke *server*. Misalnya "User Menekan Tombol X" yang didalamnya termasuk metadata seperti kapan event tersebut terjadi, *server* mana yang memproses, dan *environtment* seperti apa yang memprosesnya. Log data akan di-*generate* oleh Monitoring and Observability yang berisikan data-data atau informasi yang didapatkan dari berbagai sumber misalnya saja mengenai tanggal kejadian, penggunaan *network*, *dataset*, *network*, *compute* dan *storage*. Hal ini akan memudahkan pengembang untuk bisa menemukan *anomalies* didalam *sistem* sehingga bisa dilakukan *troubleshoot* pada masalah tersebut.
-![Log pada Elasticsearch](log.png)
+![Log pada Elasticsearch](/monitoring/assets/log.png)
 
 ## *Metric*
 *Metric* merupakan data mentah mengenai penggunaan / *behaviour* dari monitoring system yang didapatkan dari application atau service di infrastruktur kita. Data yang didapatkan biasanya berupa angka-angka yang berasal dari penggunaan CPU, *Storage*, *Request per second*, *Memory* dst. Data-data *metric* tersebut, bisa digunakan untuk mengukur efisiensi, kinerja dan kesehatan dari *application* / *service* yang ada serta untuk mengenai trend / *behaviour* dari *application* / *service* yang ada. 
-![Metric pada Grafana](metric.png)
+![Metric pada Grafana](/monitoring/assets/metric.png)
 
 ## *Tracking*
-*Tracing* merupakan sebuah alur yang dimulai dari *request* sebuah aplikasi dari awal hingga selesai yang dilakukan oleh user maupun sebuah event pada *service* / *application*. *Tracking* biasanya berbentuk sebuah grafik air terjun yang bisa menggambarkan perjalanan/alur untuk bisa memahami setiap kali event terjadi apa saja yang telah dilewati, berapa lama, melewati *server* mana saja, antriannya seperti apa dst.
-![Sentry Error Trakcing](tracking.png) 
+*Tracing* dalam konsep *Observability & Monitoring* , merupakan sebuah alur yang dimulai dari *request* sebuah aplikasi dari awal hingga selesai yang dilakukan oleh user maupun sebuah event pada *service* / *application*. *Tracking* biasanya berbentuk sebuah grafik air terjun yang bisa menggambarkan perjalanan/alur untuk bisa memahami setiap kali event terjadi apa saja yang telah dilewati, berapa lama, melewati *server* mana saja, antriannya seperti apa dst.
+![Sentry Error Trakcing](/monitoring/assets/tracking.png) 
 
 # Jenis jenis *Observability & Monitoring*
 Pada tulisan ini, saya membedakan antara *Observability & Monitoring* untuk aplikasi dan sistem. Kita akan menyebut Application Performance Management (APM) dan System Monitoring. 
@@ -56,3 +56,12 @@ Monitoring (pengamatan) dan Observability (pemantauan) adalah konsep penting dal
 - [Monitoring and Observability: Know the Difference](https://www.linkedin.com/pulse/monitoring-observability-know-difference-madhav-kashyap/)
 - [*OBSERVABILITY & MONITORING*: AN ULTIMATE GUIDE.](https://openupthecloud.com/observability-monitoring-ultimate-guide/)
 - [Log Monitoring](https://www.elastic.co/what-is/log-monitoring)
+
+# Tentang Artikel ini
+
+- Penulis: Naufaldi Rafif S
+- Ditulis pada: 26 Juni 2023
+- Penyunting: Naufaldi Rafif S, 
+- Terakhir disunting pada: 1 Juli 2023
+
+[🏠](../README.md)
