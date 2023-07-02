@@ -19,13 +19,13 @@ Ada beberapa bahasa pemrograman yang cukup populer dan kerap dipakai. Masing-mas
     - Diterjemahkan ke dalam bahasa mesin pada saat program dijalankan, sehingga cenderung lebih lambat dibandingkan Golang atau C.
     - Dibuat oleh Brendan Erich, pertama kali muncul pada tahun 1995.
     - Pada tahun 2009, muncul framework Node.Js yang memungkinkan JavaScript bisa dijalankan di sisi server.
-    - Klik [link berikut](javascript.md) untuk mulai bekerja dengan Python.
+    - Klik [link berikut](javascript.md) untuk mulai bekerja dengan JavaScript.
 - PHP
     - Sangat populer untuk membuat web.
     - Berjalan di sisi server.
     - Diterjemahkan ke dalam bahasa mesin pada saat program dijalankan, sehingga cenderung lebih lambat dibandingkan Golang atau C.
     - Dibuat oleh Rasmus Lerdorf pada tahun 1993.
-    - Klik [link berikut](php.md) untuk mulai bekerja dengan Python.
+    - Klik [link berikut](php.md) untuk mulai bekerja dengan PHP.
 - Golang
     - Biasa dipakai untuk system programming
     - Bisa juga dipakai untuk membuat aplikasi backend
@@ -34,19 +34,19 @@ Ada beberapa bahasa pemrograman yang cukup populer dan kerap dipakai. Masing-mas
     - Memiliki syntax yang sederhana.
     - Ada beberapa fitur dalam bahasa pemrograman lain yang tidak diadopsi di golang, misalnya konsep class.
     - Dibuat oleh Rob Pike, Ken Thompson, dan Robert Griesemer pada tahun 2007 dan diluncurkan ke publik pada tahun 2009.
-    - Klik [link berikut](golang.md) untuk mulai bekerja dengan Python.
+    - Klik [link berikut](golang.md) untuk mulai bekerja dengan Golang.
 - Java
     - Pernah terkenal dengan jargon "write once run everywhere". Sebuah fitur yang saat ini juga sudah bisa diimbangi oleh banyak bahasa pemrograman yang lain.
     - Memiliki paradigma Object Oriented Programming.
     - Dikompilasi ke dalam bentuk bytecode (bukan bahasa mesin), yang kemudian akan diterjemahkan ke dalam bahasa mesin saat dijalankan di atas JVM (Java Virtual Machine).
     - Untuk menjalankan aplikasi Java, kita membutuhkan Java Runtime Environment (JRE).
     - Dibuat oleh James Gosling di tahun 1990.
-    - Klik [link berikut](java.md) untuk mulai bekerja dengan Python.
+    - Klik [link berikut](java.md) untuk mulai bekerja dengan Java.
 - C
     - Merupakan bahasa pemrograman yang cukup dekat dengan hardware.
     - Diterjemahkan ke dalam bahasa mesin pada saat proses kompilasi sehingga relatif lebih cepat dibandingkan Python, JavaScript, PHP, atau Java.
     - Dibuat oleh Dennis M. Ritchie di tahun 1970.
-    - Klik [link berikut](c.md) untuk mulai bekerja dengan Python.
+    - Klik [link berikut](c.md) untuk mulai bekerja dengan C.
 
 
 

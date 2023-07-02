@@ -10,5 +10,6 @@
 - [Server + Client](server-client/README.md)
 - [Virtualisasi](virtualisasi/README.md)
 - [Docker](docker/README.md)
+- [Docker Compose](docker-compose/README.md)
 
 [🏠](../README.md)

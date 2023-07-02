@@ -35,6 +35,7 @@ Selamat membaca dan berkolaborasi.
         - Docker + docker compose
         - Lightsail
         - (nanti aja Kubernetes) 
+- [Monitoring](monitoring/README.md)
 
 # Spesialisasi Karir
 

@@ -2,6 +2,6 @@
 
 # Docker
 
-TODO: bahas bagaimana meng-container kan aplikasi (DockerFile)
+TODO: bahas tentang docker compose: Struktur YAML plus bagaimana menjalankannya
 
 [🏠](../../README.md) / [Konsep Dasar](../README.md)
