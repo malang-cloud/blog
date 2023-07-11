@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
 
 
-class MyHandler(BaseHTTPRequestHandler):
+class RequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed_url = urlparse(self.path)
         base_path = parsed_url.path
@@ -20,12 +20,9 @@ class MyHandler(BaseHTTPRequestHandler):
             self.end_headers()
 
 
-def run(server_class, handler_class, port):
+if __name__ == '__main__':
+    port = 8000
     server_address = ('', port)
-    httpd = server_class(server_address, handler_class)
+    httpd = HTTPServer(server_address, RequestHandler)
     print(f'Starting server on port {port}...')
     httpd.serve_forever()
-
-
-if __name__ == '__main__':
-    run(HTTPServer, MyHandler, 8000)
